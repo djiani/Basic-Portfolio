@@ -37,7 +37,7 @@ nav a{
 .main{
     background-color: #777777;
     border-top: 1px solid #dddddd;
-    height: 90vh;
+    min-height: 90vh;
     margin: 0px auto;
 }
 
@@ -98,4 +98,10 @@ textarea, input{
     height: 100%;
     position: absolute;
 
+}
+
+.clearfix::after{
+    content: " ";
+    clear: both;
+    display: table;
 }
