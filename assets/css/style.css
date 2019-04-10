@@ -75,3 +75,13 @@ footer{
 
 
 }
+
+textarea, input{
+    width: 80%;
+    padding: 10px 10px;
+}
+
+.submit_btn{
+    background-color: #4aaaa5;
+    padding: 20px;
+}
