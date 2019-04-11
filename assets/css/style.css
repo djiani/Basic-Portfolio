@@ -2,7 +2,7 @@ body{
     box-sizing: border-box;
     
 }
-header{
+.header_class{
     height: 10vh;
     background-color: #ffffff;
     color: #cccccc;
@@ -61,6 +61,16 @@ header, .container{
 .bio_checkMeOut{
     clear: left;
     padding: 10px;
+}
+
+article{
+    padding: 30px;
+    text-align: justify;
+}
+
+hr{
+    height: 5px;
+    background-color: #666666;
 }
 
 
